@@ -44,5 +44,19 @@ export default createSchema({
     simplePortableText,
     siteConfig,
     textSection,
+    {
+      name:'options',
+      type:'document',
+      title:'Opciones/Paquetes',
+      fields:[
+                {
+                  name:'Opciones',
+                  type:'string',
+                  title:'Titulo de Seccion Opciones'
+                }
+
+      ]
+    }
   ]),
+
 });
